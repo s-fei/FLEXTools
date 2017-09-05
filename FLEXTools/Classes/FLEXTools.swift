@@ -72,11 +72,11 @@ public class FLEXTools: NSObject {
 
 public extension FLEXTools {
 
-    /*! 展示FLEX */
+    /*! 展示FLEXButton */
     public func show() {
         isHiddenWindow = false
     }
-    /*! 隐藏FLEX */
+    /*! 隐藏FLEXButton */
     public func hidden() {
         isHiddenWindow = true
     }
