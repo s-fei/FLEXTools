@@ -171,7 +171,6 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				3F42EB65ED56D78953CFFF63 /* [CP] Embed Pods Frameworks */,
-				E5E3D8606A6AD827547DA982 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -191,7 +190,6 @@
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
 				E6942AB23B7881A5D5CF84A9 /* [CP] Embed Pods Frameworks */,
-				F8CB754B74B94DBFC37270DD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -270,7 +268,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-FLEXTools_Example/Pods-FLEXTools_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-FLEXTools_Example/Pods-FLEXTools_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/FLEX/FLEX.framework",
 				"${BUILT_PRODUCTS_DIR}/FLEXTools/FLEXTools.framework",
 			);
@@ -281,7 +279,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FLEXTools_Example/Pods-FLEXTools_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FLEXTools_Example/Pods-FLEXTools_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		89CBC97BAAE254E142F48C5F /* [CP] Check Pods Manifest.lock */ = {
@@ -320,28 +318,13 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E5E3D8606A6AD827547DA982 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FLEXTools_Example/Pods-FLEXTools_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		E6942AB23B7881A5D5CF84A9 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-FLEXTools_Tests/Pods-FLEXTools_Tests-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-FLEXTools_Tests/Pods-FLEXTools_Tests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
 				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
 			);
@@ -352,22 +335,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FLEXTools_Tests/Pods-FLEXTools_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F8CB754B74B94DBFC37270DD /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FLEXTools_Tests/Pods-FLEXTools_Tests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FLEXTools_Tests/Pods-FLEXTools_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
