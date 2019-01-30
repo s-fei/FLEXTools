@@ -41,12 +41,12 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		62291C5A1966E597563B4440 /* Pods-FLEXTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLEXTools_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FLEXTools_Tests/Pods-FLEXTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		740528BAFDB4D0B581DDED6C /* FLEXTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FLEXTools.podspec; path = ../FLEXTools.podspec; sourceTree = "<group>"; };
+		740528BAFDB4D0B581DDED6C /* FLEXTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FLEXTools.podspec; path = ../FLEXTools.podspec; sourceTree = "<group>"; };
 		77902A1F10F82DE65811E791 /* Pods_FLEXTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FLEXTools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B4EEEA8AF99217F249FEE8BB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B4EEEA8AF99217F249FEE8BB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BE5331488F1247F3E7976C80 /* Pods-FLEXTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLEXTools_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FLEXTools_Tests/Pods-FLEXTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DF7165DEC4ACC4E694BEB004 /* Pods_FLEXTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FLEXTools_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E6A08BCFBF7323E9E6533E01 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E6A08BCFBF7323E9E6533E01 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -485,7 +485,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -499,7 +499,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -519,7 +519,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -535,7 +535,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};

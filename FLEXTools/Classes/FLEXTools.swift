@@ -33,7 +33,7 @@ public class FLEXTools: NSObject {
     
     func addWindow(){
         window = UIWindow(frame:CGRect(x: UIScreen.main.bounds.width - 55, y: UIScreen.main.bounds.height - 100, width: 55, height: 55))
-        window.windowLevel = 3000
+        window.windowLevel = UIWindow.Level(rawValue: 3000)
         window.backgroundColor = UIColor.clear
         window.isUserInteractionEnabled = true
         
@@ -42,7 +42,7 @@ public class FLEXTools: NSObject {
         btn.titleLabel?.font = UIFont.systemFont(ofSize: 12)
         btn.backgroundColor = UIColor(red: 246.0 / 255.0, green: 80.0 / 255.0, blue: 0 / 255.0, alpha: 1)
         btn.alpha = 0.8
-        btn.setTitleColor(UIColor.white, for: UIControlState())
+        btn.setTitleColor(UIColor.white, for: UIControl.State())
 
         btn.setTitle("FLEX", for: .normal)
         window.addSubview(btn)
@@ -51,7 +51,7 @@ public class FLEXTools: NSObject {
         window.addGestureRecognizer(panGesture)
     }
     
-    func handlePanGesture(_ panGesture:UIPanGestureRecognizer){
+    @objc func handlePanGesture(_ panGesture:UIPanGestureRecognizer){
         if panGesture.state ==  .began {
         }
         else if panGesture.state == .changed{

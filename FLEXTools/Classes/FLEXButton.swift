@@ -25,7 +25,7 @@ class FLEXButton: UIButton {
         self.addTarget(self, action: #selector(selectTouch), for: .touchUpInside)
     }
 
-    func selectTouch (){
+    @objc func selectTouch (){
         FLEXManager.shared().showExplorer()
     }
 }

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FLEXTools'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = 'FLEX扩展带Button'
 
 # This description is used to generate tags and improve search results.
